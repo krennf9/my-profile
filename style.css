@@ -1,0 +1,310 @@
+
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #C0AFE0;
+    color: #303030;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 2rem;
+}
+
+main {
+    background-color: #F7F6F2;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #333333;
+}
+
+
+
+
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px dashed #C0AFE0;
+}
+
+
+
+
+h1, h2, p, a, li, span {
+    color: black;
+}
+
+
+h1 {
+    font-family: 'Ballet', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+.subtitle {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.1rem;
+    color: black;
+    margin-top: 2 rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+}
+
+.receipt-info {
+    flex: 1;
+    text-align: left;
+}
+
+.receipt-info p {
+    margin: 0.5rem 0;
+}
+
+.header-info img {
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #C0AFE0;
+ border-radius: 9px;
+}
+
+
+
+
+
+
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+.about-heading {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+.intro {
+    border-bottom: 2px dashed #C0AFE0;
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+
+
+.intro p {
+    margin-top: 1.5;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.5 rem;
+    color: gray;
+}
+
+
+
+
+
+
+.item-list {
+    border-bottom: 2px dashed #C0AFE0;
+    padding-bottom: 1rem;
+}
+
+.item-list p {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.item-list span {
+    min-width: 2rem;
+}
+
+
+
+
+
+
+
+.passion {
+    text-align: center;
+    border-bottom: 2px dashed #C0AFE0;
+    padding-bottom: 2rem;
+}
+
+.section-description {
+    font-size: 0.85rem;
+}
+
+.poster-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.poster-gallery img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    border: 2px solid #C0AFE0;
+border-radius: 9px;
+}
+
+
+
+
+
+
+footer {
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.contact-list p {
+    margin: 0.5rem 0;
+}
+
+
+
+a {
+    color: black;
+    overflow-wrap: anywhere;
+}
+
+a:hover {
+    background-color: #C0AFE0;
+}
+
+
+
+.thank-you {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.barcode {
+    width: 80%;
+    height: 65px;
+    margin: 1rem auto 0;
+    background: repeating-linear-gradient(
+        90deg,
+        #222222 0px,
+        #222222 2px,
+        transparent 2px,
+        transparent 4px,
+        #222222 4px,
+        #222222 5px,
+        transparent 5px,
+        transparent 8px
+    );
+}
+
+.website {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .receipt-info {
+        font-size: 0.8rem;
+    }
+
+    .header-info {
+        gap: 0.5rem;
+    }
+
+    .header-info img {
+        width: 100px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .item-list {
+        font-size: 0.9rem;
+    }
+
+    .poster-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poster-gallery img {
+        max-width: 75%;
+    }
+
+}
